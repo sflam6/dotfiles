@@ -42,7 +42,7 @@
 # # Just for example:
 # resize-overlay-duration = 4s 200ms
 
-theme = catppuccin-mocha
+theme = catppuccin-machiato
 font-size = 12
 window-padding-y = 20
 window-padding-x = 20
