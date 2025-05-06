@@ -12,3 +12,4 @@ pokemon-colorscripts -r
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias update='sudo pacman -Syy && sudo pacman -Syu'
+alias cm='chezmoi'
