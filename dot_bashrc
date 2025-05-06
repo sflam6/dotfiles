@@ -7,6 +7,9 @@
 
 #PS1='[\u@\h \W]\$ '
 
+export VISUAL = nvim
+export EDITOR = "$VISUAL"
+
 pokemon-colorscripts -r
 
 alias ls='ls --color=auto'
