@@ -7,8 +7,8 @@
 
 #PS1='[\u@\h \W]\$ '
 
-# export VISUAL = nvim
-# export EDITOR = "$VISUAL"
+export VISUAL = nvim
+export EDITOR = "$VISUAL"
 
 pokemon-colorscripts -r
 
