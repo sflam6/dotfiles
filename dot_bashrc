@@ -1,4 +1,4 @@
-set EDITOR=nvim
+set EDITOR nvim
 
 pokemon-colorscripts -r
 
