@@ -1,5 +1,5 @@
 source ~/.bashrc
-export EDITOR=nvim
+export EDITOR=/usr/bin/nvim
 set -gx EDITOR nvim
 
 # source /usr/share/cachyos-fish-config/cachyos-config.fish
