@@ -10,7 +10,7 @@
 # export VISUAL = nvim
 # export EDITOR = "$VISUAL"
 
-set --global EDITOR /usr/bin/nvim
+export EDITOR /usr/bin/nvim
 
 pokemon-colorscripts -r
 
