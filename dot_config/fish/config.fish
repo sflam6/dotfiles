@@ -1,4 +1,5 @@
 source ~/.bashrc
+set -gx EDITOR nvim
 
 # source /usr/share/cachyos-fish-config/cachyos-config.fish
 
