@@ -13,7 +13,6 @@
 		"battery",
 		"clock",
 		"tray",
-		"hyprland/language",
 		"custom/lock",
 		"custom/power"
 	],
