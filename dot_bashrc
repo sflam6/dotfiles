@@ -1,4 +1,4 @@
-set $EDITOR nvim
+export EDITOR='usr/bin/nvim'
 
 pokemon-colorscripts -r
 
