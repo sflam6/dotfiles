@@ -3,7 +3,6 @@
 	"position": "top",
 	"modules-left": [
 		"hyprland/workspaces",
-    "river/tags"
 	],
 	"modules-center": [
 		"custom/music"
@@ -13,7 +12,7 @@
 		"backlight",
 		"battery",
 		"clock",
-    "bluettoch",
+    "bluetooth",
 		"tray",
 		"custom/lock",
 		"custom/power"
@@ -33,9 +32,6 @@
 			"5": "󰛳",
 			"default": ""
 		}
-	},
-  "river/tags":{
-    "num-tags": 5,
   }, 
 	"tray": {
 		"icon-size": 21,
