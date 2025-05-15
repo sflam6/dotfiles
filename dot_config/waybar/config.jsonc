@@ -23,6 +23,7 @@
 		"on-scroll-down": "hyprctl dispatch workspace e+1",
 		"format": "{icon}",
 		"all-outputs": true,
+    "active-only": false
 		"format-icons": {
 			"1": "",
 			"2": "󰖟",
