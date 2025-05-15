@@ -49,11 +49,11 @@
 }
 
 #bluetooth {
-  color: @yellow;
+  color: @blue;
 }
 
 #clock {
-  color: @blue;
+  color: @yellow;
 }
 
 #battery {
