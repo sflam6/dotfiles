@@ -2,7 +2,7 @@
 	"layer": "top",
 	"position": "top",
 	"modules-left": [
-		"hyprland/workspaces"
+		"hyprland/workspaces",
 	],
 	"modules-center": [
 		"custom/music"
@@ -12,6 +12,7 @@
 		"backlight",
 		"battery",
 		"clock",
+    "bluetooth",
 		"tray",
 		"custom/lock",
 		"custom/power"
@@ -21,17 +22,25 @@
 		"on-scroll-up": "hyprctl dispatch workspace e-1",
 		"on-scroll-down": "hyprctl dispatch workspace e+1",
 		"format": "{icon}",
+<<<<<<< HEAD
 		"active-only":false
     "all-outputs": true,
+=======
+		"all-outputs": true,
+    "active-only": false,
+>>>>>>> 9219c1e0378d55f14abab80f96671fed9cf267c0
 		"format-icons": {
-			"1": "",
-			"2": "󰖟",
-			"3": "",
-			"4": "󰎉",
-			"5": "󰛳",
-			"default": ""
-		}
-	},
+			"1": "1",
+			"2": "2",
+			"3": "3",
+			"4": "4",
+			"5": "5",
+			"default": "D"
+		},
+    "persistent-workspaces":{
+      "*":5
+    }
+  }, 
 	"tray": {
 		"icon-size": 21,
 		"spacing": 10
@@ -49,8 +58,14 @@
 		"timezone": "Asia/hongkong",
 		"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
 		"format-alt": " {:%Y/%m/%d}",
-		"format": " {:%H:%M}"
+		"format": "|-{:%Y-%m-%d//%H:%M}-|"
 	},
+  "bluetooth":{
+    "format-off":"-[BOff]-",
+    "format-on":"-[BOn]-",
+    "format-connected":"-[BCon]-",
+    "on-click":"blueman-manager"
+  }, 
 	"backlight": {
 		"device": "nvidia_0",
 		"format": "{icon}",
@@ -107,7 +122,7 @@
 	"custom/power": {
 		"tooltip": false,
 		"on-click": "wlogout &",
-		"format": "⏻"
+		"format": "Zzz"
 	},
 	"hyprland/language": {
 		"format": " {}",
