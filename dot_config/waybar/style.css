@@ -14,7 +14,7 @@
 
 #workspaces {
   border-radius: 1rem;
-  border-width: 5px;
+  border-width: 20px;
   margin: 1px;
   background-color: @surface0;
   opacity: 0.9;
