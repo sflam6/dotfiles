@@ -65,7 +65,7 @@
     "format-off":" [BOff] ",
     "format-on":" [BOn] ",
     "format-connected":" [BCon] ",
-    "on-click":"bluetuith"
+    "on-click":"blueman-manager"
   }, 
 	"backlight": {
 		"device": "nvidia_0",
