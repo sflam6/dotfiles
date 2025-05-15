@@ -50,6 +50,7 @@
 
 #bluetooth {
   color: @blue;
+  margin-right: 1rem;
 }
 
 #clock {
