@@ -35,8 +35,8 @@
 		}
 	},
   "river/tags":{
-    "num-tags":5
-  }
+    "num-tags": 5,
+  }, 
 	"tray": {
 		"icon-size": 21,
 		"spacing": 10
