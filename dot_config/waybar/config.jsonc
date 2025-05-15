@@ -9,12 +9,12 @@
 	],
 	"modules-right": [
 		"pulseaudio",
-		"battery",
 		"clock",
     "bluetooth",
 		"tray",
 		"custom/lock",
-		"custom/power"
+		"custom/power",
+		"battery"
 	],
 	"hyprland/workspaces": {
 		"on-click": "activate",
