@@ -61,6 +61,12 @@
 		"format-alt": " {:%Y/%m/%d}",
 		"format": " {:%H:%M}"
 	},
+  "bluetooth":{
+    "format-off":"BOff",
+    "format-on":"BOn",
+    "format-connected":"BCon",
+    "on-click":bluetuith
+  }
 	"backlight": {
 		"device": "nvidia_0",
 		"format": "{icon}",
