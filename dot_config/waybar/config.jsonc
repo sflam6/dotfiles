@@ -49,22 +49,16 @@
 		"on-click": "playerctl play-pause",
 		"max-length": 50
 	},
-    "bluetooth": {
-    "format": " 󰂯 ",
-    "tooltip": true,
-	  "tooltip-format": "Bluetooth Settings",
-    "on-click": "bluetuith",
-   },
 	"clock": {
 		"timezone": "Asia/hongkong",
 		"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
 		"format-alt": " {:%Y/%m/%d}",
-		"format": "{:%Y-:%m-:%d--:%H:%M}"
+		"format": "{%Y-%m-%d--%H:%M}"
 	},
   "bluetooth":{
-    "format-off":" [BOff] ",
-    "format-on":" [BOn] ",
-    "format-connected":" [BCon] ",
+    "format-off":"-[BOff]-",
+    "format-on":"-[BOn]-",
+    "format-connected":"-[BCon]-",
     "on-click":"blueman-manager"
   }, 
 	"backlight": {
