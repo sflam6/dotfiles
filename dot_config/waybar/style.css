@@ -50,7 +50,7 @@
 
 #bluetooth {
   color: @blue;
-  border-radius: 1rem 0px 0px 1rem;
+  border-radius: 0px 1rem 1rem 0px;
   margin-right: 1rem;
 }
 
