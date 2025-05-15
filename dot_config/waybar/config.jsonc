@@ -62,9 +62,9 @@
 		"format": " {:%H:%M}"
 	},
   "bluetooth":{
-    "format-off":"BOff",
-    "format-on":"BOn",
-    "format-connected":"BCon",
+    "format-off":" [BOff] ",
+    "format-on":" [BOn] ",
+    "format-connected":" [BCon] ",
     "on-click":"bluetuith"
   }, 
 	"backlight": {
