@@ -51,7 +51,7 @@
 #bluetooth {
   margin-right: 1rem;
   border-radius: 1rem;
-} color: @yellow;
+  color: @yellow;
 }
 
 #clock {
