@@ -9,7 +9,6 @@
 	],
 	"modules-right": [
 		"pulseaudio",
-		"backlight",
 		"battery",
 		"clock",
     "bluetooth",
@@ -61,7 +60,8 @@
     "format-off":"-[BOff]-",
     "format-on":"-[BOn]-",
     "format-connected":"-[BCon]-",
-    "on-click":"blueman-manager"
+    "on-click":"blueman-manager",
+    "spacing": 20
   }, 
 	"backlight": {
 		"device": "nvidia_0",
