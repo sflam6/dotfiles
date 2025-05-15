@@ -89,7 +89,7 @@
 #custom-music {
   color: @mauve;
   border-radius: 1rem;
-  opacity: 0.7;
+  opacity: 1;
 }
 
 #custom-lock {
