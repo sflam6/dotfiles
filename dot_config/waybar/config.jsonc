@@ -2,7 +2,8 @@
 	"layer": "top",
 	"position": "top",
 	"modules-left": [
-		"hyprland/workspaces"
+		"hyprland/workspaces",
+    "river/tags"
 	],
 	"modules-center": [
 		"custom/music"
@@ -33,6 +34,9 @@
 			"default": ""
 		}
 	},
+  "river/tags":{
+    "num-tags":5
+  }
 	"tray": {
 		"icon-size": 21,
 		"spacing": 10
