@@ -55,7 +55,6 @@
 
 #clock {
   color: @yellow;
-  border-radius: 1rem;
 }
 
 #battery {
