@@ -1,4 +1,7 @@
 [Default]
+red_color=rgba(238, 22, 31, 1)
+blue_color=rgba(0, 66, 156, 1)
+green_color=rgba(16, 120, 15, 1)
 save_dir=$HOME/Desktop
 save_filename_format=swappy-%Y%m%d-%H%M%S.png
 show_panel=true
