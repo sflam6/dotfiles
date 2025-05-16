@@ -3,6 +3,7 @@
 	"position": "top",
 	"modules-left": [
 		"hyprland/workspaces",
+    "cava",
 	],
 	"modules-center": [
 		"custom/music"
