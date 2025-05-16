@@ -12,7 +12,6 @@
 		"clock",
     "bluetooth",
 		"tray",
-		"custom/lock",
 		"custom/power",
 		"battery"
 	],
@@ -56,12 +55,12 @@
 		"timezone": "Asia/hongkong",
 		"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
 		"format-alt": " {:%Y/%m/%d}",
-		"format": "|---{:%Y-%m-%d//%H:%M}---|"
+		"format": "{:%Y-%m-%d//%H:%M}"
 	},
   "bluetooth":{
-    "format-off":"-[BOff]-",
-    "format-on":"-[BOn]-",
-    "format-connected":"-[BCon]-",
+    "format-off":"Off",
+    "format-on":"On",
+    "format-connected":"Connected",
     "on-click":"blueman-manager",
     "spacing": 20
   }, 
@@ -94,11 +93,6 @@
 			]
 		},
 		"on-click": "pavucontrol"
-	},
-	"custom/lock": {
-		"tooltip": false,
-		"on-click": "hyprlock &",
-		"format": ""
 	},
 	"custom/power": {
 		"tooltip": false,
