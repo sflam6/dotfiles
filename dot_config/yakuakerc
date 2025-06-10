@@ -1,0 +1,11 @@
+[Desktop Entry]
+DefaultProfile=ncspot.profile
+
+[Dialogs]
+FirstRun=false
+
+[Window]
+Height=60
+ShowTabBar=false
+ShowTitleBar=false
+Width=60
