@@ -6,7 +6,7 @@
 
 keymap = [
   { on = "<C-n>", run = '''
-    shell '~/dragon/dragon -x -i -T "$1"' --confirm
+    shell '~/Applications/dragon/dragon -x -i -T "$1"' --confirm
     ''' },
   { on = "<Esc>", run = "escape",             desc = "Exit visual mode, clear selection, or cancel search" },
 	{ on = "<C-[>", run = "escape",             desc = "Exit visual mode, clear selection, or cancel search" },
@@ -132,7 +132,10 @@ keymap = [
 	{ on = [ "g", "d" ],       run = "cd ~/Downloads",   desc = "Go ~/Downloads" },
 	{ on = [ "g", "<Space>" ], run = "cd --interactive", desc = "Jump interactively" },
 	{ on = [ "g", "f" ],       run = "follow",           desc = "Follow hovered symlink" },
-	{ on = [ "g", "m" ],       run = "cd ~/Sync/MyWork/", desc = "Go ~/Sync/MyWork/" },
+        { on = [ "g", "w" ],       run = "cd ~/Sync/MyWork/",   desc = "Go ~/Downloads" },
+	{ on = [ "g", "m" ],       run = "cd ~/Sync/MyWork/講道/",   desc = "Go 講道" },
+	{ on = [ "g", "n" ],       run = "cd ~/Sync/MyWork/少崇/",   desc = "Go 少崇" },
+
 
 	# Tabs
 	{ on = "t", run = "tab_create --current", desc = "Create a new tab with CWD" },
